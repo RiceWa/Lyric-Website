@@ -1,0 +1,52 @@
+/* FILEPATH: /c:/Users/Sho/Desktop/School & Coding/CSS_HTML_JS/HTML ASSIGNMENT 1/styles.css */
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.lyrics {
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgb(255, 0, 255);
+    border-radius: 4px;
+    background-color: lightslategray;
+    margin-bottom: 50px; 
+}
+
+.info {
+    font-size: 20px;
+    font-family: 'sans-serif', monospace;
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgb(255, 0, 255);
+    border-radius: 4px;
+    background-color: lightslategray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1px;
+    color: blue;
+    text-align: center;
+}
